@@ -1,0 +1,98 @@
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site com Imagens!</title>
+    <style>
+        /* Estilos CSS para deixar tudo mais bonito! */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0; /* Remove margem padrão do body */
+            background-color: #e0f7fa; /* Um azul clarinho */
+            color: #333;
+            line-height: 1.6;
+            text-align: center; /* Centraliza o texto */
+        }
+
+        header {
+            background-color: #00bcd4; /* Azul turquesa */
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Sombra suave */
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 960px; /* Largura máxima do conteúdo */
+            margin: 20px auto; /* Centraliza o conteúdo e adiciona margem */
+            background-color: white;
+            border-radius: 8px; /* Cantos arredondados */
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra mais visível */
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #00838f; /* Azul mais escuro para os títulos de seção */
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        .galeria-imagens {
+            display: flex; /* Usa flexbox para organizar as imagens */
+            justify-content: center; /* Centraliza as imagens horizontalmente */
+            flex-wrap: wrap; /* Permite que as imagens quebrem a linha se não couberem */
+            gap: 20px; /* Espaço entre as imagens */
+            margin-top: 30px;
+        }
+
+        .galeria-imagens img {
+            max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+            width: 250px; /* Largura fixa para as imagens da galeria */
+            height: 180px; /* Altura fixa para as imagens da galeria */
+            object-fit: cover; /* Recorta a imagem para preencher o espaço sem distorcer */
+            border: 3px solid #00bcd4; /* Borda colorida */
+            border-radius: 10px; /* Cantos arredondados para as imagens */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Sombra nas imagens */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeito suave ao passar o mouse */
+        }
+
+        .galeria-imagens img:hover {
+            transform: scale(1.05); /* Aumenta um pouco a imagem ao passar o mouse */
+            box-shadow: 0 6px 12px rgba(0,0,0,0.25); /* Sombra mais intensa ao passar o mouse */
+        }
+
+        .botao {
+            display: inline-block;
+            background-color: #ff9800; /* Laranja vibrante */
+            color: white;
+            padding: 12px 25px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 30px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .botao:hover {
+            background-color: #f57c00; /* Laranja mais escuro ao passar o mouse */
+            transform: translateY(-2px); /* Levanta um pouco o botão */
+        }
+
+        footer {
+            background-color: #00838f;
+            color: white;
+            padding: 15px 0;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
