@@ -52,7 +52,7 @@ p {
 
 .galeria-imagens img {
     max-width: 100%;
-    width: 500px;
+    width: 600px;
     height: 600px;
     object-fit: cover;
     border: 3px solid #000000;
